@@ -1,0 +1,15 @@
+{
+    "Random Forest": {
+        "accuracy": 0.866995,
+        "macro_avg": {
+            "precision": 0.873333,
+            "recall": 0.873333,
+            "f1-score": 0.871752
+        },
+        "weighted_avg": {
+            "precision": 0.87,
+            "recall": 0.87,
+            "f1-score": 0.87
+        }
+    }
+}

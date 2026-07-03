@@ -1,0 +1,9 @@
+Model,Accuracy,Balanced Accuracy,F1-Score Macro,ROC-AUC,Training Time (s)
+Random Forest,0.867,0.8714,0.8718,0.9642,7.13
+XGBoost,0.8621,0.8682,0.8665,0.9636,9.63
+Decision Tree,0.8473,0.8558,0.8534,0.9334,0.2
+KNN (Optimized),0.8276,0.8346,0.8341,0.9312,0.33
+KNN (Baseline),0.6946,0.702,0.7073,0.8695,0.0011
+SVM (Optimized),0.6847,0.6961,0.7014,0.8493,4.55
+SVM (Baseline),0.6699,0.6793,0.6873,0.8372,0.17
+Naive Bayes (Opt),0.5813,0.5976,0.6054,0.7465,2.4

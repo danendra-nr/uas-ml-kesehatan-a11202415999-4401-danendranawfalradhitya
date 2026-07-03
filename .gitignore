@@ -1,0 +1,30 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Utility scripts
+test.py
+
+# Environment variables
+.env
+
+# Scratch folder
+scratch/
+
+# Streamlit credentials (keep config.toml)
+.streamlit/credentials.toml

@@ -1,0 +1,15 @@
+{
+    "total_rows": 1014,
+    "total_columns": 7,
+    "missing_values": 0,
+    "duplicate_rows": 562,
+    "target_distribution": {
+        "low risk": 406,
+        "mid risk": 336,
+        "high risk": 272
+    },
+    "outliers_identified": {
+        "HeartRate_min": 7,
+        "SystolicBP_max": 160
+    }
+}
