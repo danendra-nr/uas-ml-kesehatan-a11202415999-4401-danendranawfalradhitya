@@ -3,6 +3,8 @@
 
 Proyek ini merupakan rancang bangun sistem deteksi dini dan pendukung keputusan klinis (*Clinical Decision Support System* atau CDSS) untuk klasifikasi tingkat risiko kesehatan kehamilan maternal (*Maternal Health Risk*). Sistem ini mengimplementasikan data pipeline machine learning terstruktur menggunakan model terbaik Random Forest (Akurasi: 86.70%, F1-Score Macro: 87.18%) yang diintegrasikan dengan Streamlit Dashboard, Gradio Interface, dan RESTful API FastAPI untuk menunjang skrining klinis yang objektif, etis, dan handal.
 
+**Live Demo (Streamlit Cloud):** [https://uas-ml-kesehatan-a11202415999-4401.streamlit.app](https://uas-ml-kesehatan-a11202415999-4401.streamlit.app)
+
 ---
 
 ## Struktur Repositori Proyek
@@ -130,7 +132,7 @@ Dashboard Streamlit memuat visualisasi statistik data medis, performa model komp
 ```bash
 streamlit run app_streamlit.py
 ```
-Buka browser di alamat: `http://localhost:8501`
+Buka browser di alamat: `http://localhost:8501` atau akses versi live yang telah di-deploy di [Streamlit Cloud](https://uas-ml-kesehatan-a11202415999-4401.streamlit.app).
 
 ### 5. Menjalankan Antarmuka Alternatif Gradio
 ```bash
